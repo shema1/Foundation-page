@@ -4,7 +4,20 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    color: #2B292D;
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* --------------header--------------  */
 
 .page {
     width: 1400px;
@@ -79,7 +92,7 @@ body {
     margin-left: 11px;
 }
 
-.header__button {
+.action__button {
     background-color: #3040c4;
     color: #fff;
     width: 160px;
@@ -90,10 +103,65 @@ body {
     border: none;
 }
 
+.action__button_fix {
+    color: #3040c4;
+    background-color: #fff;
+    ;
+}
+
 .top-section {
     background-color: #F3C6BD;
     padding-top: 36px;
 }
+
+
+/* --------------headline--------------  */
+
+.headline {
+    width: 1400px;
+    background-color: #F3C6BD;
+    margin: auto;
+    display: flex;
+    position: relative;
+    padding-top: 84px;
+    padding-bottom: 77px;
+}
+
+.headline__banner {
+    top: 0;
+    right: 0;
+    width: 796px;
+    height: 448px;
+    margin-left: auto;
+    position: relative;
+    right: -105px;
+}
+
+.headline__title {
+    width: 764px;
+    height: 165px;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    z-index: 1;
+}
+
+.headline__description {
+    margin: 34px 0 35px;
+    height: 102px;
+    width: 456px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.hederline__part {
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+}
+
+
+/* --------------footer--------------  */
 
 .footer {
     display: flex;
