@@ -161,6 +161,53 @@ body {
 }
 
 
+/* --------------about--------------  */
+
+.about {
+    padding: 77px 0 76px;
+    background-color: #F4F5F7;
+}
+
+.article {
+    width: 555px;
+    margin-right: 26px;
+}
+
+.article__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.article__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 6px 0 0 0;
+}
+
+.box-article {
+    display: flex;
+}
+
+
+/* --------------customers--------------  */
+
+.customers {
+    padding: 30px 0 110px;
+}
+
+.customers-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customers-img__filter {
+    filter: brightness(0);
+}
+
+
 /* --------------footer--------------  */
 
 .footer {
