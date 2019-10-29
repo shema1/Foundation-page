@@ -177,8 +177,7 @@ p {
 .action__button {
   background-color: #3040c4;
   color: #fff;
-  /* width: 290px; */
-  width: 100%;
+  width: 290px;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
@@ -211,9 +210,7 @@ p {
 
 /* --------------headline--------------  */
 .headline {
-  width: 1400px;
   background-color: #F3C6BD;
-  margin: auto;
   display: flex;
   position: relative;
   padding-bottom: 77px;
@@ -225,17 +222,13 @@ p {
 }
 
 .headline__banner {
-  width: 320px;
+  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
-    top: 0;
-    right: 0;
     width: 796px;
     height: 448px;
     margin-left: auto;
-    position: relative;
-    right: -105px;
   }
 }
 
@@ -272,7 +265,6 @@ p {
 
 .hederline__part {
   margin-top: 35px;
-  width: 320px;
 }
 @media screen and (min-width: 1400px) {
   .hederline__part {
