@@ -406,7 +406,7 @@ p {
 
 /* --------------feature--------------  */
 
-.feature {
+.features {
     display: none;
     @include for-large-up {
         padding: 110px 0;
@@ -415,7 +415,7 @@ p {
     }
 }
 
-.feature-block {
+.features-block {
     display: flex;
     flex-direction: column;
     width: 465px;
@@ -564,7 +564,7 @@ p {
 }
 
 .inbox {
-    background-color: #FCF0E3;
+    background-color: #fef9f4;
     border-bottom: 1px solid #E3E3E3;
     padding-top: 40px;
     @include for-large-up {
@@ -651,9 +651,10 @@ p {
 .communication {
     color: #0189D1;
     border-bottom: none;
-    padding-top: 110px;
+    padding-top: 50px;
     @include for-large-up {
         display: block;
+        padding-top: 110px;
     }
 }
 
@@ -869,7 +870,7 @@ p {
 }
 
 .coment__text_discussion {
-    text-align: center;
+    // text-align: center;s
 }
 
 .coment__status_discussion {

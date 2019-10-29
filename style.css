@@ -423,18 +423,18 @@ p {
   }
 }
 /* --------------feature--------------  */
-.feature {
+.features {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .feature {
+  .features {
     padding: 110px 0;
     position: relative;
     display: block;
   }
 }
 
-.feature-block {
+.features-block {
   display: flex;
   flex-direction: column;
   width: 465px;
@@ -587,7 +587,7 @@ p {
 }
 
 .inbox {
-  background-color: #FCF0E3;
+  background-color: #fef9f4;
   border-bottom: 1px solid #E3E3E3;
   padding-top: 40px;
 }
@@ -678,11 +678,12 @@ p {
 .communication {
   color: #0189D1;
   border-bottom: none;
-  padding-top: 110px;
+  padding-top: 50px;
 }
 @media screen and (min-width: 1400px) {
   .communication {
     display: block;
+    padding-top: 110px;
   }
 }
 
@@ -904,10 +905,6 @@ p {
     width: 750px;
     text-align: center;
   }
-}
-
-.coment__text_discussion {
-  text-align: center;
 }
 
 .coment__status_discussion {
