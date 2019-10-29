@@ -1,0 +1,80 @@
+.discussion__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142C6;
+}
+
+.discussion__text {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 29px 0 32px 0;
+    color: #2B292D;
+    @include for-large-up {
+        width: 750px;
+        text-align: center;
+    }
+}
+
+.coment__text_discussion {
+    // text-align: center;s
+}
+
+.coment__status_discussion {
+    width: 290px;
+}
+
+.discussion__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discussion__img-switch {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background-color: #2B292D;
+    opacity: 0.2;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.circle-active {
+    background-color: #3142C5;
+    opacity: 1;
+}
+
+.circle:last-child {
+    margin: 0;
+}
+
+.feedback {
+    border-bottom: 1px solid #00000040;
+    padding: 40px 0 50px;
+    position: relative;
+}
+
+.discussion__block {
+    @include for-large-up {
+        // width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.discussion__img-green {
+    @include for-large-up {
+        position: absolute;
+        width: 273px;
+        height: 243px;
+        bottom: 0;
+        right: 20px;
+    }
+}

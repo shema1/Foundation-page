@@ -1,0 +1,59 @@
+.tips__image_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include for-large-up {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.tips__description_circle {
+    display: none;
+    @include for-large-up {
+        display: block;
+    }
+}
+
+.tips__subtitle_circle {
+    color: #F1592B;
+}
+
+.review {
+    background-color: #fff;
+    border-bottom: 1px solid #0185D0;
+    margin-bottom: 50px;
+}
+
+.tips__coment-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: #2B292D;
+    padding: 30px 20px 26px 20px;
+}
+
+.coment__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.coment__name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2B292D;
+}
+
+.coment__status {
+    opacity: 0.5;
+    width: 200px;
+    @include for-large-up {
+        width: 400px;
+    }
+}
+
+.coment_photo {
+    width: 40px;
+    height: 40px;
+}
