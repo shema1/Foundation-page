@@ -333,53 +333,6 @@ p {
 
 /* --------------customers--------------  */
 .customers-img {
-  /* display: flex; */
-}
-
-/* @media screen and (min-width:400px) {
-    .customers-img {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
-}
-
-.customers-img__row {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
-
-@media screen and (min-width:400px) {
-    .customers-img {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
-}
-
-.costumer-img__item {
-    width: 107px;
-    height: 94px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media screen and (min-width:400px) {
-    .costumer-img__item {
-        display: flex;
-        align-items: center;
-    }
-}
-
-.customers-img__filter {
-    display: inline-block;
-    align-items: center;
-    filter: brightness(0);
-} */
-.customers-img {
   display: flex;
   flex-direction: column;
 }
@@ -804,7 +757,7 @@ p {
   }
 }
 
-/* --------------opportunities--------------  */
+/* --------------audience--------------  */
 .audience {
   background-color: #75c4da21;
   padding-top: 1px;
@@ -1137,7 +1090,7 @@ p {
   }
 }
 
-/* --------------feedback--------------  */
+/* --------------order--------------  */
 .order {
   background-color: #F4F5F7;
   margin-top: 50px;
