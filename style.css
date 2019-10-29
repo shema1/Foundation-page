@@ -177,7 +177,7 @@ p {
 .action__button {
   background-color: #3040c4;
   color: #fff;
-  width: 290px;
+  width: auto;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
@@ -212,7 +212,9 @@ p {
 .headline {
   background-color: #F3C6BD;
   display: flex;
+  flex-direction: column;
   position: relative;
+  width: 100%;
   padding-bottom: 77px;
 }
 @media screen and (min-width: 1400px) {
@@ -222,10 +224,12 @@ p {
 }
 
 .headline__banner {
-  width: 290px;
+  width: 100%;
+  margin-top: 33px;
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
+    margin-top: 0;
     width: 796px;
     height: 448px;
     margin-left: auto;
@@ -233,7 +237,6 @@ p {
 }
 
 .headline__title {
-  width: 290px;
   /* height: 205px; */
   font-size: 50px;
   line-height: 50px;
@@ -252,7 +255,6 @@ p {
 
 .headline__description {
   margin: 24px 0 30px;
-  width: 290px;
   font-size: 24px;
   line-height: 34px;
 }
@@ -263,9 +265,12 @@ p {
   }
 }
 
+.hederline__part {
+  margin-top: 33px;
+}
 @media screen and (min-width: 1400px) {
   .hederline__part {
-    margin-top: 35px;
+    margin-top: 0;
     width: 754px;
     position: absolute;
     z-index: 1;
@@ -290,7 +295,6 @@ p {
 }
 
 .article {
-  width: 290px;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1400px) {
@@ -687,6 +691,11 @@ p {
   }
 }
 
+.tips__image {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 1400px) {
   .tips__image_mobile {
     width: 425px;
@@ -913,6 +922,12 @@ p {
 
 .coment__status_discussion {
   width: 290px;
+}
+
+.discussion__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .discussion__img-switch {
