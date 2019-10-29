@@ -216,6 +216,7 @@ p {
         width: 796px;
         height: 448px;
         margin-left: auto;
+        padding-right: 25px;
     }
 }
 
@@ -247,7 +248,7 @@ p {
 }
 
 .hederline__part {
-    margin-top: 33px;
+    // margin-top: 33px;
     @include for-large-up {
         margin-top: 0;
         width: 754px;
@@ -271,6 +272,9 @@ p {
 .about {
     padding: 46px 0;
     background-color: #F4F5F7;
+    @include for-large-up {
+        padding: 77px 0;
+    }
 }
 
 .article {
@@ -413,7 +417,7 @@ p {
 .features {
     display: none;
     @include for-large-up {
-        padding: 110px 0;
+        padding-bottom: 110px;
         position: relative;
         display: block;
     }
@@ -484,8 +488,9 @@ p {
 
 .feature-img__right {
     position: absolute;
-    top: 85px;
+    top: 0px;
     right: 0;
+    height: 597px;
 }
 
 .feature-img__left {
@@ -527,6 +532,13 @@ p {
     line-height: 40px;
     letter-spacing: -0.357143px;
     color: #2B292D;
+    @include for-large-up {
+        width: 462px;
+        font-size: 56px;
+        line-height: 56px;
+        /* or 100% */
+        letter-spacing: -0.5px;
+    }
 }
 
 .tips__text {
@@ -631,6 +643,9 @@ p {
 .coment__status {
     opacity: 0.5;
     width: 200px;
+    @include for-large-up {
+        width: 400px;
+    }
 }
 
 .coment_photo {
@@ -1281,6 +1296,8 @@ p {
     display: none;
     @include for-large-up {
         display: block;
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }
 
