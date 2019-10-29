@@ -246,6 +246,7 @@ p {
     margin-top: 35px;
     // width: 320px;
     @include for-large-up {
+        margin-top: 35px;
         width: 754px;
         position: absolute;
         z-index: 1;
