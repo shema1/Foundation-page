@@ -512,7 +512,7 @@ p {
 }
 
 .feature-img__left {
-  top: 365px;
+  top: 250px;
   left: 0;
   position: absolute;
 }
@@ -542,6 +542,11 @@ p {
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 17px;
+}
+@media screen and (min-width: 1400px) {
+  .tips__subtitle {
+    margin-top: 0;
+  }
 }
 
 .tips__title {
@@ -618,7 +623,7 @@ p {
 @media screen and (min-width: 1400px) {
   .tips__block {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -844,6 +849,16 @@ p {
   letter-spacing: -0.357143px;
   color: #2B292D;
   margin: 18px 0;
+}
+@media screen and (min-width: 1400px) {
+  .opportunities__title {
+    width: 555px;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
 }
 
 .opportunities__text {
@@ -1103,9 +1118,9 @@ p {
   }
 }
 
-.vacancy__active span,
-.vacancy__active button,
-.vacancy__active {
+.vacancy:hover span,
+.vacancy:hover button,
+.vacancy:hover {
   background-color: #3241c5;
   color: #fff;
   opacity: 1;
@@ -1139,6 +1154,7 @@ p {
   .order-main {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
 }
 
@@ -1151,6 +1167,12 @@ p {
 .order-img {
   height: 200px;
   width: 200px;
+}
+@media screen and (min-width: 1400px) {
+  .order-img {
+    width: 269px;
+    height: 296px;
+  }
 }
 
 .order__title {
