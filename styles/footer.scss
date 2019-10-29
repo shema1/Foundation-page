@@ -133,15 +133,6 @@
     margin-left: 20px;
 }
 
-.header__button {
-    display: none;
-    @include for-large-up {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 0;
-    }
-}
-
 .footer-nav-vertical {
     display: flex;
     flex-direction: column;
