@@ -595,7 +595,7 @@ p {
 
 .review {
     background-color: #fff;
-    border-bottom: 4px solid #0185D0;
+    border-bottom: 1px solid #0185D0;
     margin-bottom: 50px;
 }
 
@@ -676,7 +676,9 @@ p {
 }
 
 .tips__right {
+    margin-top: 40px;
     @include for-large-up {
+        margin-top: 0;
         width: 425px;
         margin-left: 193px;
         display: flex;
