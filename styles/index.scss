@@ -495,10 +495,18 @@ p {
 
 .tips {
     border-bottom: 1px solid #E3E3E3;
-    padding-top: 40px;
     @include for-large-up {
         display: none;
     }
+}
+
+.tips__box {
+    border-bottom: 1px solid #E3E3E3;
+    margin-top: 40px;
+}
+
+.tips__box:last-child {
+    border-bottom: none;
 }
 
 .tips__subtitle {
@@ -531,6 +539,15 @@ p {
     @include for-large-up {
         display: flex;
         flex-direction: column;
+    }
+}
+
+.tips__image_circle img {
+    width: 290px;
+    height: 340px;
+    @include for-large-up {
+        width: 425px;
+        height: 510px;
     }
 }
 
@@ -674,7 +691,9 @@ p {
     }
 }
 
-.tips__mobile {
+.tips__mobile img {
+    width: 290px;
+    height: 291px;
     @include for-large-up {
         width: 425px;
         height: 426px;
@@ -718,8 +737,11 @@ p {
 
 .audience {
     background-color: #75c4da21;
-    padding-top: 40px;
+    padding-top: 1px;
     padding-bottom: 50px;
+    @include for-large-up {
+        padding-top: 108px;
+    }
 }
 
 .opportunities__info {
