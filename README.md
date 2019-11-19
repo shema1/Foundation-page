@@ -1,7 +1,12 @@
 # Foundation_page
-Foundation page project template for hosting a simple landing page
-# Technologies:
+This is landing page layout -Foundation
+Supports desktop, tablet and mobile versions
 
+# Preview:
+https://shema1.github.io/Foundation_page/
+![текст](https://lh3.googleusercontent.com/179DgmT4X1bGxwN2VN9RrOBiHbKKOG75Y0v5mgyZJMIeBmaWbZZudkUJJnNQXhNa9MAvA06I0PimXtJOK-tRpeIbivFPTXucdfDzvkBQ5efTgtpqXgdhojaRS2Y3qfw6BV7jDCrpd65vSuuVXZ8r3qa91VfbStlH-BYzBUCXba4vkh6Y8lKPj4R5Bq4p4q9ZD-Y8oc-dchSbPe9ucEI8eDXon5p58KHOB_3pUk2B5uHROQ77rBJ5-RUYh89NmX6LKlFgIcylAxYRTqtvDtqIxa_XuVCG82ikoRiewt3mCor5nbjYqEdcTGAEslWSWoQKh4ztnes4WobbbHqyC1-chA_itkwv3cKG2vyI0SvQ5ImuV_nmAXbatGSsF2HFCsVp4G06j087wlPHL8nrL9p6n7J5cDkq9QDBaRoO66mGAgHECFNqM6YyvhMQjMiLAVgLvO_BQxFLHe0HKNMF7oTsqO_XxKnakUA4af35B9kSCzEDJOl-GjaW-NN1S01-ggYDYgN01sg0vtew0KkbnNH3V6cIfiBfFD7aUpm5rIicUGkikCZm7D0KoAPz5Z0ZAymXm9_ZsOvK2Wj8P9p3J0mZARrRlpwxv9IHCWw48s1GCMpmlFozU5noZFgKjhUb-XPIaRP0hnq5YoacycynLWzVN86hoDgVuLCXxhTc8QZCpl8fbB3ERuFwgM0=w1111-h959-no)
+
+# Technologies:
 For this project I have used the following technologies:
 * HTML
 * SCSS
