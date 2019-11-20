@@ -1,6 +1,7 @@
 # foundation-page
 This is landing page layout - Foundation
-Supports desktop, tablet and mobile versions
+Supports: desktop version (up to 1440px)
+          mobile versions (down to 1399px)
 
 # Preview:
 https://shema1.github.io/Foundation_page/
