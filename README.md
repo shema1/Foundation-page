@@ -1,6 +1,6 @@
 # foundation-page
-This is landing page layout - Foundation
-Supports: desktop version (up to 1440px)
+This is landing page layout - Foundation.
+Supports: desktop version (up to 1440px),
           mobile versions (down to 1399px)
 
 # Preview:
