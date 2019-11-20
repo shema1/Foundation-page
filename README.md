@@ -1,5 +1,5 @@
-# Foundation_page
-This is landing page layout -Foundation
+# foundation-page
+This is landing page layout - Foundation
 Supports desktop, tablet and mobile versions
 
 # Preview:
